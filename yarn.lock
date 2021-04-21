@@ -1322,26 +1322,6 @@
     xcode "^3.0.1"
     xml2js "^0.4.23"
 
-"@expo/config-plugins@~1.0.13":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-1.0.20.tgz#b1964daf063d7ce07c3f135aa92ccf1c60cd6e46"
-  integrity sha512-BucZQbi7edu8Pin8zFUNsaQeZAj/8ga7Ei3PKivKZKd5F53DdFU6Yb+ZDyQ0UeOGDi0hZlZWdaBzmQqHEg37TQ==
-  dependencies:
-    "@expo/config-types" "^40.0.0-beta.2"
-    "@expo/configure-splash-screen" "0.3.4"
-    "@expo/image-utils" "0.3.10"
-    "@expo/json-file" "8.2.28-alpha.0"
-    "@expo/plist" "0.0.11"
-    find-up "~5.0.0"
-    fs-extra "9.0.0"
-    getenv "0.7.0"
-    glob "7.1.6"
-    resolve-from "^5.0.0"
-    slash "^3.0.0"
-    slugify "^1.3.4"
-    xcode "^2.1.0"
-    xml2js "^0.4.23"
-
 "@expo/config-types@^40.0.0-beta.2":
   version "40.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@expo/config-types/-/config-types-40.0.0-beta.2.tgz#4fea4ef5654d02218b02b0b3772529a9ce5b0471"
@@ -1383,23 +1363,6 @@
     xcode "^3.0.0"
     xml-js "^1.6.11"
 
-"@expo/image-utils@0.3.10":
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/@expo/image-utils/-/image-utils-0.3.10.tgz#bdb9d6a2a7280680dd56d7f9dd283863b58d1e1e"
-  integrity sha512-EebukeUnzyk4ts1E1vMQSb0p8otYqWKsZNDZEoqHtERhxMSO7WhQLqa7/z2kB/YMHRJjrhaa3Aa2X5zjYot1kA==
-  dependencies:
-    "@expo/spawn-async" "1.5.0"
-    chalk "^4.0.0"
-    fs-extra "9.0.0"
-    getenv "0.7.0"
-    jimp "0.12.1"
-    mime "^2.4.4"
-    node-fetch "^2.6.0"
-    parse-png "^2.1.0"
-    resolve-from "^5.0.0"
-    semver "7.3.2"
-    tempy "0.3.0"
-
 "@expo/image-utils@0.3.13":
   version "0.3.13"
   resolved "https://registry.yarnpkg.com/@expo/image-utils/-/image-utils-0.3.13.tgz#cba070a61ce89e6c113b8e6afd5655cb83da6377"
@@ -1416,16 +1379,6 @@
     resolve-from "^5.0.0"
     semver "7.3.2"
     tempy "0.3.0"
-
-"@expo/json-file@8.2.28-alpha.0":
-  version "8.2.28-alpha.0"
-  resolved "https://registry.yarnpkg.com/@expo/json-file/-/json-file-8.2.28-alpha.0.tgz#0e5280c82a17165be12c6a95cd95ec108c6dfe7b"
-  integrity sha512-cCQdw/Nfw8doXjN3onvUnWkuJjtVxx2iUjSOLMydvgI87YpW3x05uUXOVs4P+77YFVoFS6xbki+fmKK2JSCf8w==
-  dependencies:
-    "@babel/code-frame" "~7.10.4"
-    fs-extra "9.0.0"
-    json5 "^1.0.1"
-    write-file-atomic "^2.3.0"
 
 "@expo/json-file@8.2.29":
   version "8.2.29"
@@ -1446,15 +1399,6 @@
     chalk "^4.1.0"
     getenv "^1.0.0"
     metro-react-native-babel-transformer "^0.59.0"
-
-"@expo/plist@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@expo/plist/-/plist-0.0.11.tgz#5d7900dc31df57d45a3524c061dde34aacc8dabf"
-  integrity sha512-yza93QHDkbdkdwu/PXef0eJSCMkMNdrHujK5G1viZLaZt0Rxw2s+geTyjgJsYpwqQEAoOYVpKlVymOenK+bFQg==
-  dependencies:
-    base64-js "^1.2.3"
-    xmlbuilder "^14.0.0"
-    xmldom "~0.1.31"
 
 "@expo/plist@0.0.12":
   version "0.0.12"
@@ -3996,13 +3940,14 @@ expo-font@~9.1.0:
   dependencies:
     fontfaceobserver "^2.1.0"
 
-expo-image-picker@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-10.0.0.tgz#24a3fd7335094191f148c3d2fbf9b496c500658f"
-  integrity sha512-smANMTtxqPDxGYPVQrppJAKxla2/UN4bTGfcmX7c8X8psaNUd4Bh8z9Uk/NUz00SGUWrU0Oa1K/rVrX1e0c2Hw==
+expo-image-picker@10.1.4:
+  version "10.1.4"
+  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-10.1.4.tgz#5805ea365385298cd59315790481a0a8d6c6a9ef"
+  integrity sha512-4U16RteJNWP5mC198fOIK/BgI3ZXRjqwslFK/gUrKiK5QKECXdvPCHrPwbXlo1DRQNhoPvWd+Cnhod0RsDnMkQ==
   dependencies:
-    "@expo/config-plugins" "~1.0.13"
-    expo-permissions "~11.0.0"
+    "@expo/config-plugins" "^1.0.18"
+    expo-permissions "~12.0.1"
+    unimodules-permissions-interface "~6.1.0"
     uuid "7.0.2"
 
 expo-keep-awake@~9.1.2:
@@ -4010,15 +3955,15 @@ expo-keep-awake@~9.1.2:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-9.1.2.tgz#b3e52c7bef0ade975ae88637a2bf980f6b573368"
   integrity sha512-CCuEOQUNLYtMA0rt0sQ9u5LlIMH7lDJG7dImoorfKMsP95yHXy8dl3oCdtaz2zbsPgggVYeom9gE+gQu+Ki4rQ==
 
-expo-permissions@~11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-11.0.0.tgz#10889073121fea42bbfc35f09a35fa17a316b233"
-  integrity sha512-5+sFdU1HS/4aK9O7AsoLSNjG4f0UzlA3/nBHOPnWxxY2HRFnQp764tSsfSJRnGhM89Qxort6n2RzOusMoNP5ig==
+expo-permissions@~12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-12.0.1.tgz#5163c00d991bf565bf987354611628c298ddd0c4"
+  integrity sha512-TtypNPPLG4SdVEKBlrArLLZIyhlhE+3B4dhz2HaY1Mve2rcvKE0C7z/e1WoUVU8+LgcdKoNGwg/wRVeCkxeEhg==
 
-expo-status-bar@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.0.3.tgz#62b4d6145680abd43ba6ecfa465f835e88bf6263"
-  integrity sha512-/Orgla1nkIrfswNHbuAOTbPVq0g3+GrhoQVk7MRafY2dwrFLgXhaPExS+eN2hpmzqPv2LG5cqAZDCQUAjmZYBQ==
+expo-status-bar@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.0.4.tgz#d8a4c4418b5868c1606969b12bdee85b6fa7d8a4"
+  integrity sha512-s7nc496D/Zn1NGiMJ5wu6HyIdXxbgGtmZZtbHm7rpbcmLdf28GmMSNHDx7M0t00BMhky7VAurTCUo+BJs8ugsw==
 
 expo@41.0.1:
   version "41.0.1"
@@ -4448,11 +4393,6 @@ get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
-
-getenv@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/getenv/-/getenv-0.7.0.tgz#39b91838707e2086fd1cf6ef8777d1c93e14649e"
-  integrity sha1-ObkYOHB+IIb9HPbvh3fRyT4UZJ4=
 
 getenv@^1.0.0:
   version "1.0.0"
@@ -7719,6 +7659,11 @@ unicode-property-aliases-ecmascript@^1.0.4:
   resolved "https://registry.yarnpkg.com/unicode-property-aliases-ecmascript/-/unicode-property-aliases-ecmascript-1.1.0.tgz#dd57a99f6207bedff4628abefb94c50db941c8f4"
   integrity sha512-PqSoPh/pWetQ2phoj5RLiaqIk4kCNwoV3CI+LfGmWLKI3rE3kl1h59XpX2BjgDrmbxD9ARtQobPGU1SguCYuQg==
 
+unimodules-permissions-interface@~6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/unimodules-permissions-interface/-/unimodules-permissions-interface-6.1.0.tgz#fd5589945e3b8fc9d2c80c52521853caea85a9ca"
+  integrity sha512-jeJx/y+Vn/Cp1/4su5XJ06UBul83MpXkYEqIOAb2jwaikhmj6tNwko7HpKy9OhfGfrhddCzwtedlro8xxZUk9A==
+
 union-value@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/union-value/-/union-value-1.0.1.tgz#0b6fe7b835aecda61c6ea4d4f02c14221e109847"
@@ -7978,7 +7923,7 @@ ws@^7:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.3.tgz#1f9643de34a543b8edb124bdcbc457ae55a6e5cd"
   integrity sha512-hr6vCR76GsossIRsr8OLR9acVVm1jyfEWvhbNjtgPOrfvAlKzvyeg/P6r8RuDjRyrcQoPQT7K0DGEPc7Ae6jzA==
 
-xcode@^2.0.0, xcode@^2.1.0:
+xcode@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/xcode/-/xcode-2.1.0.tgz#bab64a7e954bb50ca8d19da7e09531c65a43ecfe"
   integrity sha512-uCrmPITrqTEzhn0TtT57fJaNaw8YJs1aCzs+P/QqxsDbvPZSv7XMPPwXrKvHtD6pLjBM/NaVwraWJm8q83Y4iQ==
@@ -8046,7 +7991,7 @@ xmldoc@^1.1.2:
   dependencies:
     sax "^1.2.1"
 
-xmldom@0.1.x, xmldom@~0.1.31:
+xmldom@0.1.x:
   version "0.1.31"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.31.tgz#b76c9a1bd9f0a9737e5a72dc37231cf38375e2ff"
   integrity sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ==
