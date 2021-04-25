@@ -23,9 +23,9 @@ export default function Home() {
         {items.length > 0 && (
           <ScrollView style={{ flex: 1 }}>
             <Container>
-              {items.map((item, index) => (
+              {items.map((item) => (
                 <FoodItem
-                  key={index}
+                  key={item}
                   item={item}
                   onPress={() => navigation.navigate('Detail', { item })}
                 />
